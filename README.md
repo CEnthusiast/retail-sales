@@ -26,3 +26,15 @@ Raw Data (CSV file) → Bronze (Raw Tables) → Silver (Cleaned & Standardized D
 - Power BI
 - Python / PySpark / SQL
 
+## Databricks
+
+- Load Data: Loading CSV, renaming columns, creating Bronze table
+- Cleaning: changing columns' types where needed, checking for null values, creating Silver table
+- Gold: Creating multiple gold tables to connect them with PowerBI for visualization
+
+## PowerBI
+
+Pages:
+1. Revenue and Units Sold per Product Category
+2. Customer Insight
+3. Revenue by Product Category, Age Group, and Gender 
