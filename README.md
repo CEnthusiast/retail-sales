@@ -16,11 +16,9 @@ This project analyzes about retail sales data using Databricks for data processi
 
 # Architecture
 
-The project utilizes the Databricks Medallion Architecture using Delta Lake to implement a multi-layer data pipeline
+The project utilizes the Databricks Medallion Architecture (Bronze-Silver-Gold)
 
-Raw Data (CSV file) → Bronze (Raw Tables) → Silver (Cleaned & Standardized Data) → Gold (Business-Ready Data) → Power BI (Dashboards)
-
-#Technologies Used
+# Technologies Used
 
 Databricks, Power BI, Python, PySpark, SQL
 
